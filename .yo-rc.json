@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "14.21.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "react-formix-form-customizer",
+    "libraryId": "8a203eed-ede8-4743-af3c-f353ccce8d2f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-formix-form-customizer",
+    "solutionShortDescription": "react-formix-form-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}

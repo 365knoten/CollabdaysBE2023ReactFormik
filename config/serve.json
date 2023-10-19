@@ -1,0 +1,53 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://<mytenant>.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5390b044-a499-48d7-a70d-fd4f26139598",
+        "PageType": 8,
+        "RootFolder": "/sites/MyAppPage/Lists/TODO%20List",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formCustomizer_NewForm": {
+      "pageUrl": "https://<mytenant>.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5390b044-a499-48d7-a70d-fd4f26139598",
+        "PageType": 8,
+        "RootFolder": "/sites/MyAppPage/Lists/TODO%20List",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formCustomizer_EditForm": {
+      "pageUrl": "https://<mytenant>.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5390b044-a499-48d7-a70d-fd4f26139598",
+        "PageType": 6,
+        "RootFolder": "/sites/MyAppPage/Lists/TODO%20List",
+        "ID": 2,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "formCustomizer_ViewForm": {
+      "pageUrl": "https://<mytenant>.sharepoint.com/sites/MyAppPage/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "5390b044-a499-48d7-a70d-fd4f26139598",
+        "PageType": 4,
+        "RootFolder": "/sites/MyAppPage/Lists/TODO%20List",
+        "ID": 2,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}
